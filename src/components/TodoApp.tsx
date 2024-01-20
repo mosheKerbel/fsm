@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Button, Container, List, TextField, Typography } from '@material-ui/core';
 import TodoItem from './TodoItem';
 import { DataTestIds } from '../consts.ts';
-import useMachine from '../useMachine.tsx';
+import useMachine from '../fsm/useMachine.tsx';
 import { Todo } from '../types.js';
 
 import { createTodoMachine } from '../todosMachine.ts';

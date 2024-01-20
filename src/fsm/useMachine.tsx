@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
-import { Action, Transition } from './types';
+import { Action, Transition } from '../types';
 
 const useMachine = (machineCreator: Function) => {
   const machine = useMemo(() => machineCreator(), []);
